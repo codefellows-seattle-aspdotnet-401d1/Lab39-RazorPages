@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Lab39Tom.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Lab39Tom
 {
@@ -21,6 +23,10 @@ namespace Lab39Tom
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+
+            services.AddDbContext<MovieContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("MovieContext")));
             services.AddMvc();
         }
 

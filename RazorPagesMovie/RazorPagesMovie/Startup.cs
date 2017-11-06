@@ -23,11 +23,10 @@ namespace RazorPagesMovie
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-
             //registering the database context with the dependency injection container
             services.AddDbContext<MovieContext>(options =>
-        options.UseSqlServer(Configuration.GetConnectionString("MovieContext")));
+        options.UseSqlServer(Configuration.GetConnectionString("MovieContext")));   
+
             services.AddMvc();
         }
 

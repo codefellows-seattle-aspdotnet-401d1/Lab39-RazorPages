@@ -16,7 +16,7 @@
 
 ## ReadMe
 - Your readme should include the following information:
-  - Your link to your Azure deployed link
+  - Your link to your Azure deployed link - my subscription seems to be closed
   - How long did it take you to complete this assignment? still working on it
   - What did you struggle with? Why? How did you solve? I struggled wth simple mistakes like leaving out one or two words while following the tutorial
   - What did you learn during this assignment? I learned about how to use an app with Razor Pages

@@ -19,6 +19,7 @@ namespace RazorPagesMovie.Pages.Movies
             _context = context;
         }
 
+        //enables model binding
         [BindProperty]
         public Movie Movie { get; set; }
 
@@ -53,7 +54,14 @@ namespace RazorPagesMovie.Pages.Movies
             }
             catch (DbUpdateConcurrencyException)
             {
-                
+                if(!_context.Movie.Any(e => e.ID == Movie.ID))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
             }
 
             return RedirectToPage("./Index");

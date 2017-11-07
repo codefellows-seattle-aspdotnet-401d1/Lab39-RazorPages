@@ -1,0 +1,11 @@
+## ReadMe
+- Your link to your Azure deployed link
+  - http://razorpagetutorial20171106025925.azurewebsites.net
+- How long did it take you to complete this assignment?
+  - About 3 hours.
+- What did you struggle with? Why? How did you solve?
+  - Had a little struggle with deployment.  The tutorial was pretty straightforward.
+- What did you learn during this assignment?
+  - I developed a better understanding of Razor pages, and got more comfortable with azure deployment.
+- What resources did you utilize for this assingment?
+  - The tutorial (obvi). That's pretty much it.

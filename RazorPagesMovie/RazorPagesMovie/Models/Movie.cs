@@ -30,5 +30,9 @@ namespace RazorPagesMovie.Models
         {
             get; set;
         }
+        public string Rating
+        {
+            get; set;
+        }
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=RazorPagesMovie
+--content-root=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\About.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\Contact.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\Error.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\Index.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\Movies\Create.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\Movies\Delete.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\Movies\Details.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\Movies\Edit.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\Movies\Index.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\_Layout.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\_ValidationScriptsPartial.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\_ViewImports.cshtml
+--file=C:\Users\Duane Rush\source\repos\Lab39-RazorPages\RazorPagesMovie\RazorPagesMovie\Pages\_ViewStart.cshtml

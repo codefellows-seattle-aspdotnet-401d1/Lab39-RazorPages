@@ -1,26 +1,19 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab39-RazorPages
-=====================================
 
-## To Submit this Assignment
-- fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab38-amanda`
-- push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
-
-## Directions 
-- Follow Steps 1-8 [this](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/) Tutorial.
-- **STRETCH (3pts)** Complete step 9 (uploading Files)
--  COMMENT your code. Clearly. It is important that you 100% understand Everything that is happening in this code. Be specific. Make it known that even though you are working with a tutorial, you understand the structure. 
-- Deploy your application to Azure
 
 ## ReadMe
 - Your readme should include the following information:
   - Your link to your Azure deployed link
+  http://razorpagesmovie20171106115824.azurewebsites.net
   - How long did it take you to complete this assignment?
+  2.5 hours
   - What did you struggle with? Why? How did you solve?
+  I was missing a package install early on that prevented one of the commands we had to run 
+  from working. After installing that it eventually worked.
   - What did you learn during this assignment?
+  Learned a bit more about razor pages though not sure if I would want to use it over traditional mvc
+
   - What resources did you utilize for this assingment?
+  TAs and the tutorial
 
 ## Rubric
 - 3pts: Tutorial steps 1-8 completed. 

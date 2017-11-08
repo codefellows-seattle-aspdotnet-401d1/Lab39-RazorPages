@@ -14,7 +14,7 @@ namespace Lab39Tom.Models
             using (var context = new MovieContext(
                 serviceProvider.GetRequiredService<DbContextOptions<MovieContext>>()))
             {
-                // Look for any movies.
+                // If there are any movies in the DB, seed initializer returns and no movies are added
                 if (context.Movie.Any())
                 {
                     return;   // DB has been seeded
@@ -55,6 +55,7 @@ namespace Lab39Tom.Models
                 );
                 context.SaveChanges();
             }
+
         }
     }
 }

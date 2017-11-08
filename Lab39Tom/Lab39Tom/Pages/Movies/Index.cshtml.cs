@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Lab39Tom.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Lab39Tom.Pages.Movies
 {
@@ -19,20 +20,32 @@ namespace Lab39Tom.Pages.Movies
             _context = context;
         }
 
-        public IList<Movie> Movie { get;set; }
+        public IList<Movie> Movie { get; set; }
+        public SelectList Genres;
+        public string MovieGenre { get; set; }
+        //if searchString parameter contains string, filter by search string
 
-        //when request is made for page, returns list of movies
-        public async Task OnGetAsync(string searchString)
+        public async Task OnGetAsync(string movieGenre, string searchString)
         {
-            //LINQ query to select movies
+            //LINQ query to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.Movie
+                                            orderby m.Genre
+                                            select m.Genre;
+
             var movies = from m in _context.Movie
                          select m;
-            //if searchString parameter contains string, filter by search string
+
+            //when request is made for page, returns list of movies
             if (!String.IsNullOrEmpty(searchString))
             {
                 movies = movies.Where(s => s.Title.Contains(searchString));
             }
 
+            if (!String.IsNullOrEmpty(movieGenre))
+            {
+                movies = movies.Where(x => x.Genre == movieGenre);
+            }
+            Genres = new SelectList(await genreQuery.Distinct().ToListAsync());
             Movie = await movies.ToListAsync();
         }
     }

@@ -53,7 +53,15 @@ namespace Lab39Tom.Pages.Movies
             }
             catch (DbUpdateConcurrencyException)
             {
-                
+                //detects concurrency exceptions when the first concurrent client deletes the movie, and second concurrent client posts changes to the movie
+                if (!_context.Movie.Any(e => e.ID == Movie.ID))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
             }
 
             return RedirectToPage("./Index");

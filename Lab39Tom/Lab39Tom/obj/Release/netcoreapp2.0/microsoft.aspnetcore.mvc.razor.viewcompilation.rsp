@@ -1,0 +1,17 @@
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Lab39Tom
+--content-root=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\About.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\Contact.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\Error.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\Index.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\Movies\Create.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\Movies\Delete.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\Movies\Details.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\Movies\Edit.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\Movies\Index.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\_Layout.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\_ValidationScriptsPartial.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\_ViewImports.cshtml
+--file=C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\Pages\_ViewStart.cshtml

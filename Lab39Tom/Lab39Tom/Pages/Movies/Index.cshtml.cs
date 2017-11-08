@@ -13,6 +13,7 @@ namespace Lab39Tom.Pages.Movies
     {
         private readonly Lab39Tom.Models.MovieContext _context;
 
+        //Dependency injection to add MovieContext
         public IndexModel(Lab39Tom.Models.MovieContext context)
         {
             _context = context;
@@ -20,6 +21,7 @@ namespace Lab39Tom.Pages.Movies
 
         public IList<Movie> Movie { get;set; }
 
+        //when request is made for page, returns list of movies
         public async Task OnGetAsync()
         {
             Movie = await _context.Movie.ToListAsync();

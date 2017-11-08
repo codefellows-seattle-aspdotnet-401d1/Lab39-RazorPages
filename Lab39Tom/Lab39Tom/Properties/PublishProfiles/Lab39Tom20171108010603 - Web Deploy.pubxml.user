@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAvQuAA9ijsUKX9n+fxZW2xgAAAAACAAAAAAAQZgAAAAEAACAAAABxy7WD00+FNnpxY0ALKrr9FOqhcxyN2XuBJBtJAPJTiwAAAAAOgAAAAAIAACAAAABxeN5Q2nO+VH6IQeyoEibDHgwKhclQumV+snUWfaL8yIAAAAAZ1ClbCX8cJzRDhILnVe5TPPQiCQXXW4LzzIpn5/RfJweq2HsilYbSJjDnZJ5hyQiAiEb2jNw+TzExJxmXPhHCtYXxC7rI6M0irGamhFetKvq/bkDlJza9kP4WRTiG/fzpG8Y6xOPceqHbe98E9bwVeQ+WSPs9Vfwqum15DVfthkAAAAD6LAY7yLDZRtEh5JCAZG55UH6SR9OqDY1LUR5ze7toGKTyaKH5wsSUZvykdjeeEvzmyDXSLo/7dddc57h89Mky</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MovieContext">
+      <Value>Data Source=tcp:lab39tom20171108010603dbserver.database.windows.net,1433;Initial Catalog=Lab39Tom20171108010603_db;User Id=tom@lab39tom20171108010603dbserver;Password=Goldlion2</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

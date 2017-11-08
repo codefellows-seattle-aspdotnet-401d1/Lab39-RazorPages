@@ -1,0 +1,11 @@
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\bin\Release\netcoreapp2.0\Lab39Tom.deps.json
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\bin\Release\netcoreapp2.0\Lab39Tom.runtimeconfig.json
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\bin\Release\netcoreapp2.0\Lab39Tom.runtimeconfig.dev.json
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\bin\Release\netcoreapp2.0\Lab39Tom.dll
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\bin\Release\netcoreapp2.0\Lab39Tom.pdb
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\obj\Release\netcoreapp2.0\Lab39Tom.csproj.CoreCompileInputs.cache
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\obj\Release\netcoreapp2.0\Lab39Tom.AssemblyInfoInputs.cache
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\obj\Release\netcoreapp2.0\Lab39Tom.AssemblyInfo.cs
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\obj\Release\netcoreapp2.0\Lab39Tom.dll
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\obj\Release\netcoreapp2.0\Lab39Tom.pdb
+C:\Users\Tom\source\repos\Lab39-RazorPages\Lab39Tom\Lab39Tom\obj\Release\netcoreapp2.0\Lab39Tom.csprojResolveAssemblyReference.cache

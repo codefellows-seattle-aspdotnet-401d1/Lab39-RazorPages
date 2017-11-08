@@ -22,9 +22,18 @@ namespace Lab39Tom.Pages.Movies
         public IList<Movie> Movie { get;set; }
 
         //when request is made for page, returns list of movies
-        public async Task OnGetAsync()
+        public async Task OnGetAsync(string searchString)
         {
-            Movie = await _context.Movie.ToListAsync();
+            //LINQ query to select movies
+            var movies = from m in _context.Movie
+                         select m;
+            //if searchString parameter contains string, filter by search string
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
+
+            Movie = await movies.ToListAsync();
         }
     }
 }
